@@ -21,7 +21,7 @@ versions = {
 main = (2.7, 1.7)
 
 # Additional packages to install in each virtualenv
-additional_packages = ['cython']
+additional_packages = ['cython', 'setuptools']
 
 # Additional packages to install in the "main" virtualenv
 main_packages = ['sphinx', 'pytest-cov', 'matplotlib']
